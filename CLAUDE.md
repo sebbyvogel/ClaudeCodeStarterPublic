@@ -14,7 +14,8 @@ Plain HTML, CSS and JavaScript. No frameworks, no build step, no dependencies.
 
 - `index.html`: page content and structure
 - `style.css`: styling, including colors as CSS variables in `:root` and a dark mode
-- `script.js`: small interactive bits (footer year, click counter)
+- `script.js`: small interactive bits (live clock, footer year, click counter)
+- `images/`: pictures used on the page (FC Bayern logo from Wikimedia Commons)
 
 ## Running it
 

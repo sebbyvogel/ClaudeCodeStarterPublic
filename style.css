@@ -32,12 +32,39 @@ header {
   padding: 4rem 1rem 2rem;
 }
 
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
 h1 {
   margin: 0;
   font-size: 2.5rem;
 }
 
 .tagline {
+  color: var(--muted);
+}
+
+.clock {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+#clock-time {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+}
+
+#clock-date {
   color: var(--muted);
 }
 
