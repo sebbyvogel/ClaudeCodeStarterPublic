@@ -1,0 +1,51 @@
+{
+  "team": "FC Bayern München",
+  "season": "2026/27",
+  "note": "The matches will be updated every one week.",
+  "matches": [
+    {
+      "id": 1,
+      "date": "2026-09-13T17:30:00+02:00",
+      "competition": "Bundesliga",
+      "opponent": "SV Elversberg",
+      "venue": "away",
+      "score": { "bayern": 2, "opponent": 1 },
+      "stadium": "URSAPHARM-Arena"
+    },
+    {
+      "id": 2,
+      "date": "2026-09-18T20:30:00+02:00",
+      "competition": "Bundesliga",
+      "opponent": "1. FC Union Berlin",
+      "venue": "home",
+      "score": { "bayern": 7, "opponent": 0 }
+    },
+    {
+      "id": 3,
+      "date": "2026-10-10T15:30:00+02:00",
+      "competition": "Bundesliga",
+      "opponent": "FC Augsburg",
+      "venue": "away",
+      "score": null,
+      "stadium": "WWK Arena"
+    },
+    {
+      "id": 4,
+      "date": "2026-10-13T21:00:00+02:00",
+      "competition": "Champions League",
+      "opponent": "Viking FK",
+      "venue": "away",
+      "score": null,
+      "stadium": "Lyse Arena"
+    },
+    {
+      "id": 5,
+      "date": "2026-10-17T18:30:00+02:00",
+      "competition": "Bundesliga",
+      "opponent": "RB Leipzig",
+      "venue": "home",
+      "score": null,
+      "stadium": "Allianz Arena"
+    }
+  ]
+}

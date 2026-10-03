@@ -14,12 +14,13 @@ Plain HTML, CSS and JavaScript. No frameworks, no build step, no dependencies.
 
 - `index.html`: page content and structure
 - `style.css`: styling, including colors as CSS variables in `:root` and a dark mode
-- `script.js`: small interactive bits (live clock, footer year, click counter)
+- `script.js`: small interactive bits (live clock, footer year, click counter, loads matches from the API)
+- `api/matches.json`: static JSON API with FC Bayern matches (sample data)
 - `images/`: pictures used on the page (FC Bayern logo from Wikimedia Commons)
 
 ## Running it
 
-Open `index.html` in a browser (`open index.html` on macOS). Refresh after changes.
+Run `python3 -m http.server 8000` in this folder, then open http://localhost:8000. A local server is needed because browsers block `fetch()` for files opened directly (`file://`). Refresh after changes.
 
 ## Guidelines
 
