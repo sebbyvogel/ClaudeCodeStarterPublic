@@ -164,21 +164,23 @@ footer {
 }
 
 .competition {
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--bayern);
+  margin-bottom: 0.15rem;
 }
 
 .badge {
   margin-left: auto;
-  padding: 0.1rem 0.6rem;
-  border-radius: 999px;
-  background: var(--result);
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.7rem;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid var(--result);
+  font-size: 1.1rem;
 }
 
 .match-teams {
@@ -195,8 +197,8 @@ footer {
 }
 
 .score {
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 800;
   font-variant-numeric: tabular-nums;
   padding: 0.1rem 0.7rem;
   border-radius: 8px;

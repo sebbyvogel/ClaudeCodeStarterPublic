@@ -67,14 +67,18 @@ async function loadMatches() {
         else outcome = "draw";
       }
 
+      // One icon per outcome: win, loss, draw or not played yet
+      const icons = { win: "💪", loss: "😢", draw: "🤝", upcoming: "⏳" };
+      const icon = makeElement("span", "badge", icons[outcome]);
+      icon.title = outcome;
+      icon.setAttribute("aria-label", outcome);
+
       const item = makeElement("li", "match " + outcome);
 
+      const competition = makeElement("div", "competition", match.competition);
+
       const top = makeElement("div", "match-top");
-      top.append(
-        makeElement("span", "competition", match.competition),
-        makeElement("span", "match-date", date),
-        makeElement("span", "badge", outcome)
-      );
+      top.append(makeElement("span", "match-date", date), icon);
 
       const teams = makeElement("div", "match-teams");
       teams.append(
@@ -85,7 +89,7 @@ async function loadMatches() {
 
       const place = makeElement("div", "match-stadium", "📍 " + stadium);
 
-      item.append(top, teams, place);
+      item.append(competition, top, teams, place);
       list.appendChild(item);
     }
 
