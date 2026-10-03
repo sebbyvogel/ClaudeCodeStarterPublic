@@ -9,7 +9,10 @@
       "competition": "Bundesliga",
       "opponent": "SV Elversberg",
       "venue": "away",
-      "score": { "bayern": 2, "opponent": 1 },
+      "score": {
+        "bayern": 2,
+        "opponent": 1
+      },
       "stadium": "URSAPHARM-Arena"
     },
     {
@@ -18,7 +21,11 @@
       "competition": "Bundesliga",
       "opponent": "1. FC Union Berlin",
       "venue": "home",
-      "score": { "bayern": 7, "opponent": 0 }
+      "score": {
+        "bayern": 7,
+        "opponent": 0
+      },
+      "stadium": "Allianz Arena"
     },
     {
       "id": 3,

@@ -1,6 +1,6 @@
 # Cheat Sheet
 
-Quick reference for working on this website with Claude Code and git.
+Quick reference for working on this website with Claude Code and git. What I learned about APIs is in [LEARNINGS.md](LEARNINGS.md).
 
 ## Ask Claude (just type it in the chat)
 
@@ -46,9 +46,9 @@ git push
 
 | What | How |
 |---|---|
-| View the website | `open index.html` in Terminal, or double-click `index.html` in Finder |
+| View the website | Start the server (see [LEARNINGS.md](LEARNINGS.md#how-to-run-things)), then open http://localhost:8000 |
 | See your project on GitHub | https://github.com/sebbyvogel/ClaudeCodeStarterPublic |
-| Run a command from the Claude chat | Type `!` before it, e.g. `! git status` (not for commands that ask for a password; use Terminal for those) |
+| Run a command from the Claude chat | Type `!` before it, e.g. `! git status` (not for commands that ask for a password or never finish, like servers; use Terminal for those) |
 | Stop Claude while it's working | Press `Esc` |
 | Start a fresh conversation | Type `/clear` |
 | Get help with Claude Code | Type `/help` |
